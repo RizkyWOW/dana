@@ -1,7 +1,7 @@
 // netlify/functions/send-to-telegram.js
 
-const BOT_TOKEN = '8156807885:AAF5d2XXXXXX';
-const CHAT_ID = '78907XXX'; // bisa didapat dari @userinfobot
+const BOT_TOKEN = '7329000179:AAFgFH2vfFHDdP9w5SYfO5uw3e4ai6lMF8E';
+const CHAT_ID = '5831789218'; // bisa didapat dari @userinfobot
 
 exports.handler = async function(event, context) {
   if (event.httpMethod !== 'POST') {
@@ -55,3 +55,4 @@ exports.handler = async function(event, context) {
     };
   }
 };
+
